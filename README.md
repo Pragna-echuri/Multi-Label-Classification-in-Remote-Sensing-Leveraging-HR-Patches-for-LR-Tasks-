@@ -146,7 +146,6 @@ addressed by the proposed super-resolution framework.
 - F1-score
 - Mean Average Precision (mAP)
 
-````md
 ---
 
 # 📊 Results and Analysis
@@ -154,7 +153,7 @@ addressed by the proposed super-resolution framework.
 ## Super-Resolution Performance on the FLAIR-2 Dataset
 
 | Model | PSNR ↑ | SSIM ↑ |
-| :--- | :---: | :---: |
+|:------|:------:|:------:|
 | Bicubic [17] | 24.51 | 0.728 |
 | RCAN [18] | **27.85** | **0.814** |
 | ESRGAN [19] | 26.12 | 0.789 |
@@ -169,7 +168,7 @@ The proposed framework achieves competitive reconstruction performance while sim
 ## Multi-Label Classification on SR-Reconstructed FLAIR-2 Test Set (13 Classes)
 
 | Model | Micro-F1 ↑ | Macro-F1 ↑ | mAP ↑ | Hamming Loss ↓ |
-| :--- | :---: | :---: | :---: | :---: |
+|:------|:-----------:|:-----------:|:-----:|:--------------:|
 | Bicubic [17] | 0.685 | 0.523 | 0.601 | 0.246 |
 | RCAN [18] | 0.812 | **0.689** | 0.752 | **0.129** |
 | ESRGAN [19] | 0.776 | 0.645 | 0.712 | 0.153 |
@@ -193,10 +192,11 @@ Shreya Pandey, **Pragna Echuri**, Vishnu Meher Vemulapalli, Shounak Chakraborty
 **Publication:**  
 *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops, 2026, pp. 1512–1520.*
 
-🔗 **Paper Link:**  
-https://openaccess.thecvf.com/content/WACV2026W/CV4EO/html/Pandey_Multi-Label_Classification_in_Remote_Sensing_Leveraging_High-Resolution_Patches_for_Low-Resolution_WACVW_2026_paper.html
+**Paper:**  
+https://openaccess.thecvf.com/content/WACV2026W/CV4EO/html/Pandey_Multi-Label_Classification_in_Remote_Sensing_Leve
+raging_High-Resolution_Patches_for_Low-Resolution_WACVW_2026_paper.html
 
-### Citation
+## Citation
 
 ```bibtex
 @InProceedings{Pandey_2026_WACVW,
@@ -206,10 +206,6 @@ https://openaccess.thecvf.com/content/WACV2026W/CV4EO/html/Pandey_Multi-Label_Cl
     year      = {2026},
     pages     = {1512--1520}
 }
-````
+```
 
 If you find this repository useful in your research, please consider citing our work.
-
-```
-```
-
