@@ -193,8 +193,7 @@ Shreya Pandey, **Pragna Echuri**, Vishnu Meher Vemulapalli, Shounak Chakraborty
 *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops, 2026, pp. 1512–1520.*
 
 **Paper:**  
-https://openaccess.thecvf.com/content/WACV2026W/CV4EO/html/Pandey_Multi-Label_Classification_in_Remote_Sensing_Leve
-raging_High-Resolution_Patches_for_Low-Resolution_WACVW_2026_paper.html
+[https://openaccess.thecvf.com/content/WACV2026W/CV4EO/html/Pandey_Multi-Label_Classification_in_Remote_Sensing_Leveraging_High-Resolution_Patches_for_Low-Resolution_WACVW_2026_paper](https://openaccess.thecvf.com/content/WACV2026W/CV4EO/html/Pandey_Multi-Label_Classification_in_Remote_Sensing_Leveraging_High-Resolution_Patches_for_Low-Resolution_WACVW_2026_paper.html)
 
 ## Citation
 
