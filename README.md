@@ -146,4 +146,70 @@ addressed by the proposed super-resolution framework.
 - F1-score
 - Mean Average Precision (mAP)
 
+````md
+---
+
+# 📊 Results and Analysis
+
+## Super-Resolution Performance on the FLAIR-2 Dataset
+
+| Model | PSNR ↑ | SSIM ↑ |
+| :--- | :---: | :---: |
+| Bicubic [17] | 24.51 | 0.728 |
+| RCAN [18] | **27.85** | **0.814** |
+| ESRGAN [19] | 26.12 | 0.789 |
+| LDM-SR [20] | 25.78 | 0.765 |
+| Proposed (SR-only) | 27.40 | 0.766 |
+| Proposed (SR+MLC Joint) | 24.68 | 0.682 |
+
+The proposed framework achieves competitive reconstruction performance while simultaneously enabling downstream semantic understanding. The joint optimization setting introduces a trade-off between image fidelity and classification objectives, resulting in task-aware feature representations for remote sensing analysis.
+
+---
+
+## Multi-Label Classification on SR-Reconstructed FLAIR-2 Test Set (13 Classes)
+
+| Model | Micro-F1 ↑ | Macro-F1 ↑ | mAP ↑ | Hamming Loss ↓ |
+| :--- | :---: | :---: | :---: | :---: |
+| Bicubic [17] | 0.685 | 0.523 | 0.601 | 0.246 |
+| RCAN [18] | 0.812 | **0.689** | 0.752 | **0.129** |
+| ESRGAN [19] | 0.776 | 0.645 | 0.712 | 0.153 |
+| LDM-SR [20] | 0.742 | 0.601 | 0.676 | 0.170 |
+| Proposed (SR-only) | 0.799 | 0.642 | 0.738 | 0.146 |
+| Proposed (Joint SR+MLC) | **0.853** | 0.657 | **0.765** | 0.140 |
+
+The proposed **Joint SR+MLC framework** achieves the highest **Micro-F1 score (0.853)** and **mAP (0.765)**, demonstrating that integrating super-resolution and multi-label classification in a unified architecture significantly improves semantic understanding of low-resolution remote sensing imagery.
+
+---
+
+# 🏆 Publication
+
+This work is associated with our paper published at the **IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops 2026**, a leading international venue in computer vision and pattern recognition.
+
+### 📄 Multi-Label Classification in Remote Sensing: Leveraging High-Resolution Patches for Low-Resolution Tasks
+
+**Authors:**  
+Shreya Pandey, **Pragna Echuri**, Vishnu Meher Vemulapalli, Shounak Chakraborty
+
+**Publication:**  
+*Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops, 2026, pp. 1512–1520.*
+
+🔗 **Paper Link:**  
+https://openaccess.thecvf.com/content/WACV2026W/CV4EO/html/Pandey_Multi-Label_Classification_in_Remote_Sensing_Leveraging_High-Resolution_Patches_for_Low-Resolution_WACVW_2026_paper.html
+
+### Citation
+
+```bibtex
+@InProceedings{Pandey_2026_WACVW,
+    author    = {Pandey, Shreya and Echuri, Pragna and Vemulapalli, Vishnu Meher and Chakraborty, Shounak},
+    title     = {Multi-Label Classification in Remote Sensing: Leveraging High-Resolution Patches for Low-Resolution Tasks},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    year      = {2026},
+    pages     = {1512--1520}
+}
+````
+
+If you find this repository useful in your research, please consider citing our work.
+
+```
+```
 
